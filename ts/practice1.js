@@ -1,4 +1,3 @@
-"use strict";
 console.log("Hey What's Up");
 console.log("文字列中のダブルクォーテーション(\")は注意が必要");
 let productPrice = 1200;
@@ -12,3 +11,8 @@ function calculatetotalAmount(productPrice, taxRate) {
 console.log("商品価格は" + "1000円です");
 console.log("消費税率は" + "10%です");
 console.log(calculatetotalAmount(1000, 1.1));
+const numArray = [1, 2, 3, 4];
+const stringArray = ["1", "2", "3", "4"];
+console.log(numArray[0]);
+console.log(stringArray[0]);
+export {};
