@@ -10,4 +10,5 @@
 バージョン情報<br>
 TypeScript:6.0.3<br>
 Node.js:24.15.0<br>
-ruby:4.0.5
+ruby:4.0.5<br>
+Java:25.0.4
