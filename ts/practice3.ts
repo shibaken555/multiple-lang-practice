@@ -6,7 +6,7 @@ const percentageOfIr:number = (invesmentReturn-1)*100;
 console.log("投資の元本は"+invesmentPrincipal+"円です。");
 console.log("投資のリターンは"+percentageOfIr+"%です。");
 
-function calculatetotalAmount(productPrice:number,taxRate:number){
+function calculatetotalAmount(productPrice:number,taxRate:number):number{
    let totalAmount:number = productPrice * taxRate;
    return totalAmount;
 }
