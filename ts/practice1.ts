@@ -7,15 +7,6 @@ const CONSUMPTION_TAX_RATE = 1.1;
 let totalAmount:number = productPrice * CONSUMPTION_TAX_RATE;
 console.log(totalAmount);
 
-function calculatetotalAmount(productPrice:number,taxRate:number){
-   let totalAmount:number = productPrice * taxRate;
-   return totalAmount;
-}
-
-console.log("商品価格は" + "1000円です");
-console.log("消費税率は" + "10%です");
-console.log(calculatetotalAmount(1000,1.1));
-
 const numArray:number[] = [1,2,3,4];
 const stringArray:string[] = ["1","2","3","4"];
 console.log(numArray[0]);
