@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class practice3 {
+public class Practice3 {
 
     // 重複している値を検出し全て削除するコード
     public static void main(String[] args) {
@@ -36,11 +36,13 @@ public class practice3 {
         countsMap.entrySet().removeIf(entry -> entry.getValue() > 2);
         System.out.println("countsMap(重複なし)"+countsMap);
 
+        // Mapに要素を追加するためのList
         List<String> distinctList = new ArrayList<>(countsMap.keySet());
         System.out.println("distinctList" + distinctList);
 
         Map<Integer, String> distinctMap = new HashMap<>();
         for (int i = 0; i < distinctList.size(); i++) {
+            // キーは1から始まるので、i+1にする
             distinctMap.put(i + 1, distinctList.get(i));
         }
         System.out.println("distinctMap" + distinctMap);
