@@ -76,7 +76,7 @@ const ironmanPersonalData =
 console.log(`${ironmanPersonalData.name}の正体は${ironmanPersonalData.realName}`);
 
 // map型
-const mcuPhase2Movies = new Map();
+const mcuPhase2Movies:Map<string,number> = new Map();
 mcuPhase2Movies.set("Iron Man 3", 2013),
     mcuPhase2Movies.set("Thor: The Dark World", 2013),
     mcuPhase2Movies.set("Captain America: The Winter Soldier", 2014),
