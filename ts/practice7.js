@@ -1,0 +1,11 @@
+"use strict";
+const recordedOn = "1516-01-23T00:00:00.000Z";
+const date = new Date(recordedOn);
+const year = date.getFullYear();
+const month = date.getMonth() + 1;
+const day = date.getDate();
+console.log(date);
+console.log(year);
+console.log(month);
+console.log(day);
+console.log(`${year}年${month}月${day}日`);
