@@ -10,3 +10,7 @@ console.log(year);
 console.log(month);
 console.log(day);
 console.log(`${year}年${month}月${day}日`);
+
+const recordDate = new Date("1516-01-23T00:00:00.000Z");
+const strRecordDate: string = recordDate.toISOString();
+console.log(strRecordDate.slice(0,10));
